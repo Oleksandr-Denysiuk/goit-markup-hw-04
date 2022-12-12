@@ -83,9 +83,10 @@ button {
 }
 
 .nav-link, 
-.auth-link,
-.logo-studio,
-.logo {
+.auth-link
+/* .logo-studio, */
+/* .logo { */
+  {
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -276,10 +277,11 @@ button {
 }
 
 .features-block {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 264px;
   height: 112px;
-  padding: 24px 100px;
   background-color: #F4F4FD;
   border-radius: 4px;
   margin-bottom: 8px;
